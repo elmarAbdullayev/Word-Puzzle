@@ -1,0 +1,19 @@
+.myContainer{
+    background-image: url('https://wallpapercave.com/wp/wp6221066.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   height: 100vh;
+}
+
+.btn {
+    border: 2px solid white;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+

@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.gameContainer {
+    background-image: url("https://thumbs.dreamstime.com/z/horizontal-blue-squared-grid-white-maths-paper-background-school-97896343.jpg?w=768");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.startBut {
+    margin-top: 30vh;
+    height: 40vh;
+}
+
+.btn:hover {
+    background: #e7760b;
+    color: #3967e4;
+}
+
+.LifeLevelStop {
+    padding-top: 15vh;
+    margin-bottom: 10vh;
+}
+
+.containerForLetter {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.oneLetter {
+    font-size: 3vh;
+    font-family: -apple-system;
+    margin: 1vh 3.1vh;
+    border: none;
+    background: black;
+    color: rgb(18 203 241);
+    padding: 2vh;
+    border-radius: 50%;
+}
+.oneLetter:hover{
+    background: white;
+    color: black;
+}
+
+
+
+#disable {
+    background: red;
+}
+
+.gameWonMessage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    animation: fadeIn 2s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 768px) {
+    .startBut {
+        margin-top: 20vh;
+        height: 30vh;
+    }
+
+
+
+    .LifeLevelStop {
+        padding-top: 10vh;
+        margin-bottom: 5vh;
+    }
+
+    .oneLetter {
+        font-size: 2vh;
+        padding: 1.2vh;
+        margin: 1vh 1vh;
+    }
+
+    .gameWonMessage {
+        font-size: 1.5rem;
+        padding: 15px;
+        top: 20%;
+        left: 50%;
+    }
+
+
+}
+
+@media (max-width: 1180px) {
+    .startBut {
+        margin-top: 20vh;
+        height: 30vh;
+    }
+
+
+    .LifeLevelStop {
+        padding-top: 10vh;
+        margin-bottom: 5vh;
+    }
+
+    .oneLetter {
+        font-size: 2vh;
+        padding: 1.2vh;
+        margin: 1vh 1vh;
+    }
+
+    .gameWonMessage {
+        font-size: 1.5rem;
+        padding: 15px;
+        top: 20%;
+        left: 50%;
+    }
+
+
+
+}
